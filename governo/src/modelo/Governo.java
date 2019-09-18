@@ -11,8 +11,8 @@ package modelo;
  */
 public class Governo {
     private int codigo;
-    private String secetaria;
-    private int n_funcionários;
+    private String secretaria;
+    private int n_funcionarios;
 
     public int getCodigo() {
         return codigo;
@@ -22,24 +22,24 @@ public class Governo {
         this.codigo = codigo;
     }
 
-    public String getSecetaria() {
-        return secetaria;
+    public String getSecretaria() {
+        return secretaria;
     }
 
-    public void setSecetaria(String secetaria) {
-        this.secetaria = secetaria;
+    public void setSecretaria(String secretaria) {
+        this.secretaria = secretaria;
     }
 
-    public int getN_funcionários() {
-        return n_funcionários;
+    public int getN_funcionarios() {
+        return n_funcionarios;
     }
 
-    public void setN_funcionários(int n_funcionários) {
-        this.n_funcionários = n_funcionários;
+    public void setN_funcionarios(int n_funcionarios) {
+        this.n_funcionarios = n_funcionarios;
     }
 
     @Override
     public String toString() {
-        return "Governo{" + "secetaria=" + secetaria + '}';
+        return "Governo{" + "secretaria=" + secretaria + '}';
     }
 }
